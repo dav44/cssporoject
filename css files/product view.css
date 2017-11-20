@@ -1,0 +1,401 @@
+h1  {
+    
+    position: absolute;
+    top: 35px;
+    left: 562px;   
+}
+
+.inner-slogan-banner h2 {
+    
+    position: absolute;
+    top: 123px;
+    left: 151px;
+    letter-spacing: 1.5px;   
+}
+.inner-slogan-banner h2 span {
+
+    color: #00c8c8;
+}
+
+.main-wrapper {
+
+    position: relative;
+    width: 1170px;
+    height: 1067px;
+    top: 63px;
+    left: 440px;
+}
+
+.item-photo {
+
+    position: absolute;
+    
+}
+.main-wrapper h3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#575153;
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 20px; 
+    left: 600px;
+    text-transform: uppercase;  
+}
+.item-review-nav {
+
+    position: absolute;
+    width: 568px;
+    height: 17px;
+    top: 43px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+}
+.fa-fw {
+    
+    padding-right: 13px;
+}
+
+.fa-star {
+    color: #ded3aa;
+    
+}
+
+.item-review-nav li {
+    display: inline-block;  
+     color: #727272;
+     
+}
+.item-review-nav ul li:not(:first-child) {
+   padding-left: 45px;
+}
+
+.item-review-nav li a {
+    text-decoration: none;
+    
+     color: #727272;
+   
+}
+.item-review-nav li span {
+
+    color: #00c8c8;
+}
+.item-price {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 75px;
+    left: 599px;
+    color:#9a9a9a;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.item-price span {
+    position: relative;
+    font-size: 20px;
+    bottom: 8px;
+}
+
+.item-info {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 243px;
+    height: 73px;
+    top: 156px;
+    left: 600px;
+    color:#575153;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px; 
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+
+
+.item-info span {
+
+    color:#8c8c8c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: none;
+}
+
+.item-info ul {
+   list-style-type: none;
+}
+
+.item-description {
+
+    position: absolute;
+    width: 569px;
+    height: 161px;
+    top: 265px;
+    left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e8c8c;
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 21px; 
+    
+    
+}
+.item-description ul {
+
+    list-style-position: inside;
+}
+.item-description p {
+
+    margin-bottom: 15px;
+}
+
+.item-options {
+   
+   position: relative;
+   top: 472px;
+   left: 600px;
+   width: 478px;
+   height: 60px; 
+}
+
+.item-options div {
+    display: inline-block;
+}
+
+.item-options span {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#575153;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    display: block;
+}
+
+select {
+    position: absolute; 
+    border-color: #e7e7e7;
+    background-color: rgba(45, 113, 240, 0);
+    width: 170px;
+    height: 35px;
+    color: #989898;
+     
+}
+.item-color, .item-size {
+    width: 170px;
+    height: 60px;
+    margin-right: 30px;
+}
+.item-quantity {
+    width: 70px;
+    height: 60px;
+}
+
+.item-quantity input {
+    
+    background-color: rgba(45, 113, 240, 0);
+    width: 50px;
+    height: 35px;    
+    color: #989898;
+    position: absolute;
+}
+
+.add-button1, .add-button2 {
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #737373;
+    box-sizing: border-box;
+    background-color: rgba(115, 115, 130, 0);
+    width: 303px;
+    height: 59px;
+    color: #454647;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.add-button1 {
+
+    position: absolute;
+    width: 241px;
+    height: 59px;
+    top: 591px;
+    left: 600px;
+}
+.add-button2 {
+    position: absolute;
+    width: 303px;
+    height: 59px;
+    top: 591px;
+    left: 867px;
+    
+}
+.add-button1 i, .add-button2 i {
+    font-size: 18px;
+    margin-right: 12px;
+}
+
+
+.add-button1:hover, .add-button2:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;  
+}
+.add-to-compare {
+   position: absolute;
+   top: 680px;
+   left: 601px;
+   width: 213px;
+   height: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #454647;
+   font-size: 14px;
+   font-weight: 400;
+   
+}
+.compare-icon {
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #727272;
+    display: inline-block;
+    color:  #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+.compare-icon i {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.add-to-compare span {
+    position: absolute;
+    top: 8px;
+    left: 43px;
+}
+.compare-icon:hover {
+    background-color: #00c8c8;
+
+}
+.item-data {
+    background-color: #f8f8f8;
+    width: 1170px;
+    height: 50px;
+    position: absolute;
+    top: 748px;
+    display:flex;
+    align-items:center;
+}
+.item-data ul {
+    
+    list-style-type: none;
+    
+}
+
+.item-data li {
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 70px;
+    padding-left: 15px;
+   
+  
+}
+.item-data li:hover {
+    
+    background-color:#333333;
+}
+.item-data a:hover {
+    color:  #ffffff;
+}
+
+
+.item-data a {
+    color: #575153; 
+    text-decoration: none;         
+}
+
+.item-data-description {
+
+    position: absolute;
+    top: 76px;
+    left: 16px;
+    width: 1138px;
+    height: 243px;
+}
+
+.item-data h3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #727272;
+    font-size: 13px; 
+    font-weight: 400;
+    line-height: 20px; 
+    left: 0px;
+    margin-bottom: 18px;
+    
+    
+    
+}
+.item-data p {
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e8c8c;
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 22px; 
+    margin-bottom: 24px;
+    
+}
+.slider-button1:hover, .slider-button2:hover {
+
+    background-color: #00c8c8;
+    width: 45px;
+    height: 55px;
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.slider-button1 {
+
+    position: absolute;
+    top: 328px;
+}
+.slider-button2 {
+
+    position: absolute;
+    top: 328px;
+    right: 0px;
+}
+
+.slider-button1 i, .slider-button2 i {
+ 
+ color: #575153;
+ font-size: 48px;
+ font-weight: 400;
+    
+}
+.slider-button1 i:hover, .slider-button2 i:hover {
+    color: #ffffff;
+}
+.slider-button1 i {
+    position: absolute;
+    left: 15px;
+}
+.slider-button2 i {
+    position: absolute;
+    right: 15px;
+}
+
+
+footer {
+
+    position: absolute;
+    top: 1861px;
+}
+
